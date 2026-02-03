@@ -28,4 +28,5 @@ launchctl unload -w ~/Library/LaunchAgents/com.opencode.server.plist
 
 ## Access
 - Local: http://127.0.0.1:4096
-- Tailscale: http://<tailscale-ip>:4096
+- Tailscale: http://100.116.234.28:4096
+- MagicDNS: http://claudl.taile64ce5.ts.net:4096/
