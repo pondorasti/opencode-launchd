@@ -15,20 +15,14 @@
       <string>4096</string>
     </array>
 
-    <key>EnvironmentVariables</key>
-    <dict>
-      <key>OPENCODE_SERVER_PASSWORD</key>
-      <string>alex</string>
-    </dict>
-
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
 
     <key>StandardOutPath</key>
-    <string>/Users/alexandru/Library/Logs/opencode.log</string>
+    <string>/Users/claudl/Library/Logs/opencode.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/alexandru/Library/Logs/opencode.err.log</string>
+    <string>/Users/claudl/Library/Logs/opencode.err.log</string>
   </dict>
 </plist>
