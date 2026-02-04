@@ -22,6 +22,11 @@ LaunchAgent config for running OpenCode server on macOS.
 launchctl unload -w ~/Library/LaunchAgents/com.opencode.server.plist
 ```
 
+## Restart
+```sh
+launchctl kickstart -k gui/$(id -u)/com.opencode.server
+```
+
 ## Logs
 - ~/Library/Logs/opencode.log
 - ~/Library/Logs/opencode.err.log
