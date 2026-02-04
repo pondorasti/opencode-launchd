@@ -35,3 +35,9 @@ launchctl kickstart -k gui/$(id -u)/com.opencode.server
 
 ## Access
 Local access is available at http://127.0.0.1:4096. For external access, set up Tailscale and use your tailnet IP or MagicDNS hostname.
+
+## License
+This project is released under the MIT License. See `LICENSE` for details.
+
+## Support
+If you like this project, please consider giving it a star.
