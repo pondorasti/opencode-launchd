@@ -7,6 +7,8 @@ LaunchAgent config for running OpenCode server on macOS.
 - Tailscale optional for remote access
 
 ## Install
+> Note: New users should fork this repo and update `launchd/com.opencode.server.plist` with their own paths before installing.
+
 1) Copy plist:
    ```sh
    cp launchd/com.opencode.server.plist ~/Library/LaunchAgents/
