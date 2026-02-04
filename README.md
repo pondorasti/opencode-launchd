@@ -10,15 +10,17 @@ LaunchAgent config for running OpenCode server on macOS.
 > [!WARNING]
 > New users should fork this repo and update `launchd/com.opencode.server.plist` with their own paths before installing.
 
-1) Copy plist:
+### Copy plist
    ```sh
    cp launchd/com.opencode.server.plist ~/Library/LaunchAgents/
    ```
 
-2) Load:
+### Load plist
    ```sh
    launchctl load -w ~/Library/LaunchAgents/com.opencode.server.plist
    ```
+### Access server
+Local server is available at http://127.0.0.1:4096. For external access, set up Tailscale and use your tailnet IP or MagicDNS hostname.
 
 ## Uninstall / Stop
 ```sh
@@ -34,8 +36,7 @@ launchctl kickstart -k gui/$(id -u)/com.opencode.server
 - ~/Library/Logs/opencode.log
 - ~/Library/Logs/opencode.err.log
 
-## Access
-Local access is available at http://127.0.0.1:4096. For external access, set up Tailscale and use your tailnet IP or MagicDNS hostname.
+
 
 ## License
 This project is released under the MIT License. See [LICENSE](LICENSE) for details.
