@@ -32,6 +32,7 @@ launchctl kickstart -k gui/$(id -u)/com.opencode.server
 - ~/Library/Logs/opencode.err.log
 
 ## Access
+Access details below are specific to my installation, replace with your own endpoints.
 - Local: http://127.0.0.1:4096
 - Tailscale: http://100.116.234.28:4096
 - MagicDNS: http://claudl.taile64ce5.ts.net:4096/
